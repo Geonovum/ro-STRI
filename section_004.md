@@ -8,8 +8,8 @@ Ieder ruimtelijk instrument kent een eigen identificatienummer (idn). Het idn is
 
 NL\.(IMRO\.[0-9]{4}\.[A-Za-z0-9]{1,18}-[A-Za-z0-9]{4}
 
-In <a href='#d3e2197'>Tabel 4</a> worden de onderdelen van deze reguliere expressie nader verklaard.<br/>
-<table style='width: 100%;'><caption>Onderdelen van het identificatienummer</caption>
+In Tabel 4 worden de onderdelen van deze reguliere expressie nader verklaard.<br/>
+<table style='width: 100%;'><caption>Tabel 4 Onderdelen van het identificatienummer</caption>
 <colgroup><col id='col1' style='width: 22.58504949368529%;'
 <col id='col2' style='width: 77.41495050631471%;'
 </colgroup>
@@ -20,7 +20,7 @@ In <a href='#d3e2197'>Tabel 4</a> worden de onderdelen van deze reguliere expres
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>NL\.(IMRO)\.<br/>
 </td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>de namespace NL.IMRO. als vaste tekst<br/>
+<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>de namespace NL.IMRO. als vaste tekst.<br/>
 </td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>[0-9]{4}<br/>
@@ -35,7 +35,7 @@ In <a href='#d3e2197'>Tabel 4</a> worden de onderdelen van deze reguliere expres
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>[A-Za-z0-9]{1,18}<br/>
 </td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>Minimaal 1 en maximaal 18 alfanumerieke tekens, te bepalen door de bronhouder<br/>
+<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>Minimaal 1 en maximaal 18 alfanumerieke tekens, te bepalen door de bronhouder.<br/>
 </td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>- <br/>
@@ -56,14 +56,14 @@ Het gedeelte van het identificatienummer tot aan het liggend streepje wordt het 
 NL\.(IMRO)\.[0-9]{4}\.[A-Za-z0-9]{1,18}<br/>
 ## Bestandsnaam vereisten {#4036FA61}
 
-Voor ieder bronbestand worden in <a href='#d3e216'>Tabel 1</a> en <a href='#d3e761'>Tabel 2</a> eisen gesteld aan de bestandsnaam. De reguliere expressie waarmee de naam van een bestand wordt beschreven, is als volgt:
+Voor ieder bronbestand worden in Tabel 1 en Tabel 2 eisen gesteld aan de bestandsnaam. De reguliere expressie waarmee de naam van een bestand wordt beschreven, is als volgt:
 
 ([a-z]{1,2}_)?NL\.(IMRO)\.[0-9]{4}\.[A-Za-z0-9]{1,18}-[A-Za-z0-9]{4}<br/>
 (_[A-Za-z0-9\.]{1,20})?\.(html|htm|xhtml|xml|gml|pdf|png|jpg|jpeg)
 
-In <a href='#d3e2446'>Tabel 5</a> worden de onderdelen van deze reguliere expressie nader verklaard.
+In Tabel 5 worden de onderdelen van deze reguliere expressie nader verklaard.
 
-<table style='width: 100%;'><caption>Onderdelen van de bestandsnaam vereisten</caption>
+<table style='width: 100%;'><caption>Tabel 5 Onderdelen van de bestandsnaam vereisten</caption>
 <colgroup><col id='col1' style='width: 43.73648879280919%;'
 <col id='col2' style='width: 56.26351120719081%;'
 </colgroup>
