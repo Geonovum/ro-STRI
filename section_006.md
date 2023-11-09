@@ -8,11 +8,11 @@ In het kader van de beveiliging van de digitale ruimtelijke instrumenten, wordt 
 
 <ol><li>Waarmerken van een individueel ruimtelijk instrument door middel van een elektronische handtekening, zie paragraaf <a href='#789E64F8'>6.2</a>;</li>
 <li>Waarmerken van het Manifest van een bronhouder door middel van een elektronische handtekening, zie paragraaf <a href='#647D7F2D'>6.3</a>;</li>
-<li>Het waarmerken gebeurt met een elektronische handtekening waarbij gebruik gemaakt wordt van certificaten van PKI-Overheid https://cert.pkioverheid.nl/;</li>
+<li>Het waarmerken gebeurt met een elektronische handtekening waarbij gebruik gemaakt wordt van <a href='https://cert.pkioverheid.nl/' target='_blank'>certificaten van PKI-Overheid</a>;</li>
 <li>De integriteit, authenticiteit en volledigheid van een individueel ruimtelijk instrument moet door de afnemers in de digitale verbeelding van dit instrument vastgesteld kunnen worden.</li>
 </ol>
 
-Bij het waarmerken wordt als technische standaard de W3C XML-Signature Syntax and Processing https://www.w3.org/TR/xmldsig-core1/ (xmldsig) standaard toegepast, met gebruikmaking van PKI-Overheid certificaten. Vanwege operationele veiligheidsaspecten is een aantal normatieve aanvullende restricties van toepassing, die door de landelijke voorziening Ruimtelijkeplannen.nl https://www.ruimtelijkeplannen.nl/ worden gehanteerd.
+Bij het waarmerken wordt als technische standaard de W3C <a href='https://www.w3.org/TR/xmldsig-core1/' target='_blank'>XML-Signature Syntax and Processing (xmldsig) standaard</a> toegepast, met gebruikmaking van PKI-Overheid certificaten. Vanwege operationele veiligheidsaspecten is een aantal normatieve aanvullende restricties van toepassing, die door de landelijke voorziening <a href=' https://www.ruimtelijkeplannen.nl/' target='_blank'>Ruimtelijkeplannen.nl</a> worden gehanteerd.
 
 Voor aanvullende specificaties en organisatorische aspecten rondom elektronische handtekeningen wordt verder verwezen naar PKI-Overheid.<br/>
 ## Authenticiteitskenmerken van een individueel instrument {#789E64F8}

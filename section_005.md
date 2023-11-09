@@ -541,5 +541,5 @@ Naast de voorwaarden voor het Manifest en Geleideformulier in voorgaande paragra
 <li>voor de opbouw van het Manifest en het Geleideformulier is een XML Schema beschikbaar, dat samen met deze standaard beschikbaar is.</li>
 </ul>
 
-Noot<br/>
-De planstatus onherroepelijk wordt niet gebruikt in ruimtelijke plannen conform IMRO2012. De planstatus onherroepelijk is een planstatus uit het <a href='http://ro-standaarden.geonovum.nl/2008/1.1/20081224-IMRO2008.pdf' target='_blank'>Informatiemodel Ruimtelijke Ordening 2008 (IMRO2008)</a>.
+<p class="note">
+De planstatus onherroepelijk wordt niet gebruikt in ruimtelijke plannen conform IMRO2012. De planstatus onherroepelijk is een planstatus uit het <a href='http://ro-standaarden.geonovum.nl/2008/1.1/20081224-IMRO2008.pdf' target='_blank'>Informatiemodel Ruimtelijke Ordening 2008 (IMRO2008)</a>.</p>
