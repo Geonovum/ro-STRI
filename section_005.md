@@ -4,11 +4,11 @@ De bronbestanden van ieder ruimtelijk instrument moeten beschikbaar worden geste
 
 ## Eisen aan de beschikbaarstelling {#42F69F15}
 
-Ieder ruimtelijk instrument dat is vastgelegd in het Manifest van een bronhouder dient door de bronhouder in zijn geheel beschikbaar te zijn gesteld. Dit betekent dat alle bronbestanden zoals genoemd in <a href='#d3e216'>Tabel 1</a> en <a href='#d3e761'>Tabel 2</a> beschikbaar zijn via het internet. Deze beschikbaarstelling moet voldoen aan een aantal eisen:
+Ieder ruimtelijk instrument dat is vastgelegd in het Manifest van een bronhouder dient door de bronhouder in zijn geheel beschikbaar te zijn gesteld. Dit betekent dat alle bronbestanden zoals genoemd in Tabel 1 en Tabel 2 beschikbaar zijn via het internet. Deze beschikbaarstelling moet voldoen aan een aantal eisen:
 
 <ul><li>Publicatie van de manifesten en plannen door bronhouders van ruimtelijke plannen via standaard poort 443 voor HTTPS verkeer;</li>
-<li>Het gebruik van een beveiligde HTTPS verbinding via TLS https://datatracker.ietf.org/doc/html/rfc8446 is wettelijk verplicht door de wet digitale overheid https://wetten.overheid.nl/BWBR0048156/2023-07-01. Gebruik hiervoor de richtlijnen van het NCSC https://www.ncsc.nl/onderwerpen/verbindingsbeveiliging/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1;</li>
-<li>Voor de bestanden is de GET operatie van het transportprotocol van HTTP toegestaan conform de lijst van open standaarden van het Forum standaardisatie https://forumstandaardisatie.nl/open-standaarden/http;</li>
+<li>Het gebruik van een beveiligde <a href='https://datatracker.ietf.org/doc/html/rfc8446' target='_blank'>HTTPS verbinding via TLS</a> is wettelijk verplicht door de <a href='https://wetten.overheid.nl/BWBR0048156' target='_blank'>Wet digitale overheid</a> . Gebruik hiervoor de richtlijnen van het <a href='https://www.ncsc.nl/onderwerpen/verbindingsbeveiliging/documenten/publicaties/2021/januari/19/ict-beveiligingsrichtlijnen-voor-transport-layer-security-2.1' target='_blank'>NCSC</a>;</li>
+<li>Voor de bestanden is de GET operatie van het transportprotocol van HTTP toegestaan conform de <a href=' https://forumstandaardisatie.nl/open-standaarden/http' target='_blank'>lijst van open standaarden</a> van het Forum standaardisatie;</li>
 <li>Het gebruik van HTTP compressie via content encodings is onderdeel van de HTTP/1.1 standaard en is derhalve toegestaan; het gebruik hiervan kan een voordeel bieden bij het beschikbaar stellen van de potentieel erg grote planbestanden;</li>
 <li>Alle bronbestanden dienen zonder autorisatie- of authenticatiemechanismen zoals inloggen beschikbaar te zijn en worden niet afgeschermd door bijvoorbeeld firewalls;</li>
 <li>De beschikbaarstelling van een ruimtelijk instrument mag op iedere URL plaatsvinden en hoeft dus niet op de officiële website van de bronhouder te geschieden;</li>
@@ -110,7 +110,7 @@ Binnen ieder &lt;Dossier&gt; element worden de volgende gegevens opgenomen:
 </td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>1<br/>
 </td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>het dossiernummer van het desbetreffende Dossier conform het format zoals gegeven in Hoofdstuk 5 van de STRI2012<br/>
+<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>het dossiernummer van het desbetreffende Dossier conform het format zoals gegeven in Hoofdstuk 5 van de STRI2012.<br/>
 </td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>status<br/>
@@ -135,7 +135,7 @@ Binnen ieder &lt;Dossier&gt; element worden de volgende gegevens opgenomen:
 </td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>1..*<br/>
 </td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>informatie over ieder beschikbaar gesteld ruimtelijk instrument binnen het Dossier<br/>
+<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>informatie over ieder beschikbaar gesteld ruimtelijk instrument binnen het Dossier.<br/>
 </td>
 </tr>
 </tbody>
@@ -166,7 +166,7 @@ Bij ieder &lt;Plan&gt; element in het Dossier worden de volgende gegevens over h
 </td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>1<br/>
 </td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>het idn van het desbetreffende ruimtelijk instrument conform het format zoals gegeven in Hoofdstuk 5 van de STRI2012<br/>
+<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>het idn van het desbetreffende ruimtelijk instrument conform het format zoals gegeven in Hoofdstuk 5 van de STRI2012.<br/>
 </td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>naam<br/>
@@ -187,7 +187,7 @@ Bij ieder &lt;Plan&gt; element in het Dossier worden de volgende gegevens over h
 </td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>1<br/>
 </td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>De URL van het geleideformulier van het ruimtelijk instrument<br/>
+<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>De URL van het geleideformulier van het ruimtelijk instrument.<br/>
 </td>
 </tr>
 </tbody>
@@ -242,14 +242,14 @@ Het geleideformulier is opgebouwd zoals weergegeven met de tabellen in deze para
 </td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>1<br/>
 </td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>Het ordenend element waar binnen de informatie met betrekking tot een individueel ruimtelijk instrument wordt geplaatst<br/>
+<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>Het ordenend element waar binnen de informatie met betrekking tot een individueel ruimtelijk instrument wordt geplaatst.<br/>
 </td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>signature<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>1<br/>
 </td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>het PKI-Overheid waarmerk<br/>
+<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>het PKI-Overheid waarmerk.<br/>
 </td>
 </tr>
 </tbody>
@@ -287,21 +287,21 @@ In het &lt;Plan&gt; element in het Geleideformulier worden de volgende gegevens 
 </td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>1<br/>
 </td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>root element voor alle eigenschappen van het instrument<br/>
+<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>root element voor alle eigenschappen van het instrument.<br/>
 </td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>onderdelen<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>1<br/>
 </td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>root element van alle onderdelen behorende bij het instrument<br/>
+<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>root element van alle onderdelen behorende bij het instrument.<br/>
 </td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>supplementen<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>0..1<br/>
 </td>
-<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>root element van de bij het instrument behorende supplementen<br/>
+<td align='left' style='border-top: 0.5pt solid #95B3D7; border-left: 0.5pt solid #95B3D7; border-bottom: 0.5pt solid #95B3D7; border-right: 0.5pt solid #95B3D7; background-color: none;'>root element van de bij het instrument behorende supplementen.<br/>
 </td>
 </tr>
 </tbody>
@@ -524,8 +524,8 @@ De exacte opbouw van het XML geleideformulier is vastgelegd in een XML Schema da
 ## Wijzigen reeds eerder gepubliceerde plannen {#5EBB12FD}
 
 Ambtelijk foutherstel in een ruimtelijke plan of besluit door de bronhouder, zonder voorafgaand besluit, is het herstellen van de metadata c.q. de technische kenmerken van het ruimtelijk plan of besluit of het opheffen van inconsistenties in de planvoorraad tussen bronhouder en Ruimtelijkeplannen.nl. Het naderhand door de bronhouder aanpassen van reeds eerder gepubliceerde plannen kan en mag, indien het gaat om:<br/>
-<ul><li>een (beperkte) set van metadata die van cruciaal belang is voor (blijvende) begrijpelijkheid, raadpleegbaarheid en bruikbaarheid van plannen, niet alleen in de huidige LV, maar ook in het DSO.</li>
-<li>het ervoor zorgen dat, op grond van de bestaande verplichting daartoe in het Besluit ruimtelijke ordening (Bro), de lokaal aanwezige planvoorraad consistent is met de landelijke voorziening van de Wro Ruimtelijkeplannen.nl.</li>
+<ul><li>een (beperkte) set van metadata die van cruciaal belang is voor (blijvende) begrijpelijkheid, raadpleegbaarheid en bruikbaarheid van plannen, niet alleen in de landelijke voorziening Ruimtelijkeplannen.nl, maar ook in het Digitaal Stelsel Omgevingswet.</li>
+<li>het ervoor zorgen dat, op grond van de bestaande verplichting daartoe in het Besluit ruimtelijke ordening (Bro), de lokaal aanwezige planvoorraad consistent is met de landelijke voorziening van de Wro; Ruimtelijkeplannen.nl.</li>
 </ul>
 
 Bij gebreken aan de inhoud van het plan of besluit zal het bevoegd gezag een nieuw besluit moeten nemen of een nieuwe procedure moeten volgen.<br/>
@@ -542,5 +542,4 @@ Naast de voorwaarden voor het Manifest en Geleideformulier in voorgaande paragra
 </ul>
 
 Noot<br/>
-De planstatus onherroepelijk wordt niet gebruikt in ruimtelijke plannen conform IMRO2012. De planstatus onherroepelijk is een planstatus uit IMRO2008, zie:<br/>
-<a href='http://ro-standaarden.geonovum.nl/2008/1.1/20081224-IMRO2008.pdf' target='_blank'>http://ro-standaarden.geonovum.nl/2008/1.1/20081224-IMRO2008.pdf</a><br/>
+De planstatus onherroepelijk wordt niet gebruikt in ruimtelijke plannen conform IMRO2012. De planstatus onherroepelijk is een planstatus uit het <a href='http://ro-standaarden.geonovum.nl/2008/1.1/20081224-IMRO2008.pdf' target='_blank'>Informatiemodel Ruimtelijke Ordening 2008 (IMRO2008)</a>.
