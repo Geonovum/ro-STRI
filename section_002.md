@@ -1,6 +1,6 @@
 # Onderdelen van de ruimtelijke instrumenten {#647D7CD7}
 
-Ieder ruimtelijk instrument is opgebouwd uit een samenhangende set onderdelen. Ieder onderdeel bestaat uit één of meerdere bronbestanden. In dit hoofdstuk worden eisen gesteld aan de mogelijke samenstelling van onderdelen en bronbestanden.
+<b>Ieder ruimtelijk instrument is opgebouwd uit een samenhangende set onderdelen. Ieder onderdeel bestaat uit één of meerdere bronbestanden. In dit hoofdstuk worden eisen gesteld aan de mogelijke samenstelling van onderdelen en bronbestanden.</b>
 
 ## Beschikbaar stellen van bronbestanden {#647D7CD9}
 
